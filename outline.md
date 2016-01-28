@@ -1,0 +1,52 @@
+There and back again, a developer's tale
+========================================
+
+- Introduction
+	- The state of JS...
+		- JS apps
+		- Google Play
+		- Google Docs
+		- arts.ucla.edu
+	- ...and WordPress
+		- ustwo.com
+		- qz.com
+- Section one: The problem, using websites often sucks...
+	- Connections can be crappy, more often than we would like despite innovations
+	- Page load times can be slow
+	- Difficult to smoothly animate (like an app)
+	- Difficult to create continuous experiences
+	- Without using JavaScript, it's going to get harder
+		- Service Worker
+		- Push notifications
+- Section two: Single-page applications
+	- Have historically been well criticised
+	- Example such as ****
+	- Have been maturing over a long period of time
+	- Not necessarily suited to every use case, but far more than we use them for at the moment
+	- The downsides/challenges are historically summarised as:
+		- Search engine optimisation
+		- Client/server code partitioning
+		- Browser history
+		- Analytics
+		- Speed of initial load
+	- Wikipedia article outlines above, but also talks about solutions. Yes, you can find answers to these problems on Wikipedia!
+	- Much of the development around browsers and HTML specifically targets making these things better
+- Section three: Marrying WordPress and single-page applications
+	- So, we currently don't have these problems with WordPress.
+	- In fact, the fact that WordPress deals with these things well is one of its key strengths.
+	- We don't want to introduce lots of new problems. We want to have our cake and eat it (or at least I do).
+	- Browser history
+		- History API
+	- Client/server code partitioning
+		- Templating languages like Handlebars and Mustache?
+		- Libraries like React support cliend and server-side rendering
+	- Speed of initial load
+		- Bootstrapping
+	- SEO and Speed...
+		- Generating PHP files
+	- Further thoughts?
+		- MVC
+		- Storing state
+- Wrapping up
+	- Kelly and Mel's stuff
+	- A Day of REST theme
