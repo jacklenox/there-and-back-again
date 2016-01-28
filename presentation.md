@@ -138,7 +138,17 @@ build-lists: true
 
 ^ How long is it before clients ask what will happen if user is offline?
 
+---
+
+![original](caveman.jpeg)
+
 ^ Bit like responsive design. Coined by Ethan Marcotte five years ago. Even non-web people know what this is now.
+
+---
+
+![](caveman.jpeg)
+
+## Nice, but is it responsive?
 
 ---
 
@@ -470,6 +480,7 @@ $page_on_front = get_option( 'page_on_front' );
 ## Further reading
 
 - github.com/humanmade/feelingrestfultheme
+- egghead.io/instructors/dan-abramov
 - github.com/ryelle/Anadama-React
 - github.com/Automattic/wp-calypso
 - (github.com/jacklenox)
